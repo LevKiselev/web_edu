@@ -19,7 +19,7 @@
 
     <title>{{title}}</title>
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 <header>
     <nav class="navbar navbar-expand-sm bg-dark p-2" data-bs-theme="dark">
         <div class="container-sm">
@@ -71,7 +71,7 @@
 <main role="main" class="container-fluid p-5 min-vh-80">
     {% block content %}{% endblock %}
 </main>
-<footer>
+<footer class="mt-auto">
     <div class="container-fluid text-bg-secondary p-3">Проект Яндекс Лицей</div>
 </footer>
 </body>
